@@ -1,0 +1,38 @@
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(110, 58, 25, 0.2);
+    border-radius: 10px;
+    color: white;
+}
+
+.stat-card {
+    background: rgba(110, 58, 25, 0.4);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#back-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(148, 112, 92);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back-btn:hover {
+    background-color: rgb(168, 132, 112);
+}
